@@ -23,9 +23,10 @@ const a5 = ['김우진','김현','방승희','윤준현','홍문기'];
 console.log("5 :", a5.findIndex((x)=>x ==="윤준현"));
 // 명단에 같은 이름(성씨제외)을 가진 학생이 두 명 있습니다. 이 중 마지막에 있는 학생의 위치를 찾아 출력하는 코드를 작성하세요.
 const a6 = ['김우진','김현','김준현','방승희','윤준현','홍문기'];
+// 성을 때어서 이름만 있는 배열 (length는 같다.)
 const jun = a6.map(x => [...x].slice(1,3).join(''));
 console.log(jun);
-console.log("6 :", jun.lastIndexOf("준현"));
+console.log("6 :", jun.lastIndexOf(result));
 // 명단에서 성씨가 ‘김’씨인 학생의 이름을 찾아 출력하는 코드를 작성하세요.
 const a7 = ['김우진','김현','김준현','방승희','윤준현','홍문기'];
 console.log("7 :", a7.filter(x=>x[0].includes("김")))
