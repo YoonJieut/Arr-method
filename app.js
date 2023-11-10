@@ -30,6 +30,7 @@ console.log("6 :", jun.lastIndexOf("준현"));
 const a7 = ['김우진','김현','김준현','방승희','윤준현','홍문기'];
 console.log("7 :", a7.filter(x=>x[0].includes("김")))
 // 기초데이터(studentList, pokemonList) 두 개의 명단을 합쳐 전체 학생 명단을 만들려고 합니다. 두 명단을 결합하는 코드를 작성하세요.
+const a8 = ['김우진','김현','김준현','방승희','윤준현','홍문기'];
 console.log("8 :", )
 // 모든 학생의 이름 앞에 '학생_'을 붙여 새로운 형식으로 명단을 만드는 코드를 작성하세요.
 console.log("9 :", )
