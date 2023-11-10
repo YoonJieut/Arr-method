@@ -51,7 +51,8 @@ console.log("13 :", a13.slice(1,3));
 const a14 = ['김우진','김현','김준현','방승희','윤준현','홍문기'];
 console.log("14 :", a14.filter(x=>x.includes('승')))
 // 명단에 '홍'으로 시작하는 학생이 한 명이라도 있는지 확인하는 코드를 작성하세요.
-console.log("15 :", )
+const a15 = ['김우진','김현','김준현','방승희','윤준현','홍문기'];
+console.log("15 :", a15.some(x=>x.includes('홍')));
 
 
 
